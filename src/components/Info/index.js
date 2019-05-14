@@ -30,7 +30,7 @@ export default class Info extends PureComponent {
   handleClick = () => {
     this.setState(({ open }) => ({ open: !open }));
     AudioModule.playOneShot({
-      source: asset('ray-gun.wav'),
+      source: asset('glitch_error_BLASTWAVEFX_23989.mp3'),
     });
     rotate();
   };
