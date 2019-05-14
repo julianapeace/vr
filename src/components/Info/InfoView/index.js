@@ -26,7 +26,7 @@ export default class InfoView extends Component {
       this.state.fade,
       {
         toValue: value,
-        duration: 3000,
+        duration: 250,
       }
     ).start();
   }
@@ -45,7 +45,7 @@ export default class InfoView extends Component {
         <VrButton
           style={[
             styles.rootButton,
-            { backgroundColor: open ? 'red': 'green' },
+            { backgroundColor: open ? 'fuchsia': 'lime' },
           ]}
           onClick={onClick}
         />

@@ -64,8 +64,8 @@ function init(bundle, parent, options = {}) {
     r360.getDefaultLocation(),
   );
 
-  r360.compositor.setBackground(r360.getAssetURL('360_world.jpg'));
-  // r360.compositor.setBackground(r360.getAssetURL('3d_scene.jpg'));
+  // r360.compositor.setBackground(r360.getAssetURL('360_world.jpg'));
+  r360.compositor.setBackground(r360.getAssetURL('vaporwave-delorean-8192x4096.jpg'));
 }
 
 window.React360 = {init};

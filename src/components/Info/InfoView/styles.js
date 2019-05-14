@@ -9,7 +9,7 @@ export default StyleSheet.create({
     justifyContent: 'space-around',
   },
   rootText: {
-    color: 'black',
+    color: 'white',
     fontSize: 60,
     fontWeight: 'bold',
   },
